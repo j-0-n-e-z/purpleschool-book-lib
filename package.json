@@ -1,0 +1,23 @@
+{
+	"name": "purpleschool-book-lib",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "live-server",
+		"build": "rollup -c --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "j-0-n-e-z",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-node-resolve": "^15.1.0",
+		"eslint": "^8.44.0",
+		"rollup": "^3.26.2",
+		"rollup-plugin-import-css": "^3.3.1"
+	},
+	"dependencies": {
+		"on-change": "^4.0.2"
+	}
+}

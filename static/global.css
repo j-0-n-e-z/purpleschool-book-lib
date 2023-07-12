@@ -1,0 +1,22 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: var(--black);
+	margin: 0;
+}
+
+html {
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+#root {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+:root {
+	--black: #121212;
+	--light-black: #252525;
+	--white: #fafafa;
+	--gray: #dedede;
+}

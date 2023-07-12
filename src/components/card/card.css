@@ -1,0 +1,80 @@
+.card {
+	display: flex;
+	flex-flow: column nowrap;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.card__img {
+	background: #b8b88b;
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	height: 140px;
+}
+
+.card__img img {
+	object-fit: contain;
+}
+
+.card__info {
+	display: flex;
+	flex-flow: column nowrap;
+	background: var(--black);
+	color: var(--white);
+	height: 150px;
+	padding: 10px;
+}
+
+.card__info__tag {
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 15px;
+	margin-bottom: 3px;
+	color: #DEDEDE;
+}
+
+.card__info__name {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 110%;
+	margin-bottom: 8px;
+}
+
+.card__info__author {
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+	color: #fff;
+}
+
+.card__info__pick-favorite {
+	margin-top: auto;
+	display: flex;
+}
+
+.card__info__pick-favorite__btn {
+	width: 36px;
+	height: 32px;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: none;
+  color: var(--white);
+	border: 1px solid var(--white);
+	cursor: pointer;
+}
+
+.card__info__pick-favorite__btn img {
+  filter: invert(100%);
+}
+
+.card__info__pick-favorite__btn.active {
+  background: var(--white);
+}
+
+.card__info__pick-favorite__btn.active img {
+  filter: invert(0);
+}
+
